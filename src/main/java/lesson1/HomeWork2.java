@@ -6,6 +6,7 @@ public class HomeWork2 {
         System.out.println(do1(5, 8));
         do2(-7);
         System.out.println(do3(-1));
+
     }
 
     static boolean do1(int a, int b) {
@@ -23,6 +24,13 @@ public class HomeWork2 {
         System.out.println("\nЗадание 3.");
         if (a<0) return true;
         else return false;
+    }
+   public static void do4(String button,int number) {
+        for(int i = 3; i <5; i++){
+            System.out.println(button);
+        }
+
+
     }
 
 }
